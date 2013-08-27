@@ -123,6 +123,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_T-ARIAAOI}", "click", function(sym, e) {
+         window.open("https://plus.google.com/106248969113271333267/about", "_new");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
