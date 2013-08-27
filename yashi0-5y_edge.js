@@ -392,6 +392,23 @@ var symbols = {
             fill:["rgba(0,0,0,0)",im+"U-DaisukeMineko.png",'0px','0px']
          },
          {
+            id:'T-HuiChu',
+            display:'none',
+            type:'text',
+            rect:['17.4%','64.1%','17.4%','20.8%','auto','auto'],
+            text:"Top18<br>+灰触",
+            align:"left",
+            font:['Arial, Helvetica, sans-serif',[300,"%"],"rgba(255,255,255,1)","normal","none","normal"],
+            textShadow:["rgba(255,255,0,1.00)",0,0,15]
+         },
+         {
+            id:'U-HuiChu',
+            display:'none',
+            type:'image',
+            rect:['53.2%','3.9%','46.8%','248.1%','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"U-HuiChu.png",'0px','0px']
+         },
+         {
             id:'TitleBar',
             type:'rect',
             rect:['0px','0px','100%','30px','auto','auto'],
@@ -634,6 +651,24 @@ var symbols = {
             ["style", "left", '0%'],
             ["style", "height", '138.54%']
          ],
+         "${_T-HuiChu}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '17.36%'],
+            ["style", "width", '17.36%'],
+            ["style", "top", '-16.92%'],
+            ["style", "height", '20.83%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "display", 'none']
+         ],
+         "${_U-HuiChu}": [
+            ["style", "top", '100%'],
+            ["style", "height", '248.12%'],
+            ["style", "display", 'none'],
+            ["style", "left", '53.16%'],
+            ["style", "width", '46.84%']
+         ],
          "${_U-XuShu}": [
             ["style", "top", '3.91%'],
             ["style", "height", '95.57%'],
@@ -862,12 +897,16 @@ var symbols = {
       "Default Timeline": {
          fromState: "Base State",
          toState: "",
-         duration: 44000,
+         duration: 45500,
          autoPlay: true,
          timeline: [
             { id: "eid417", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid392", tween: [ "style", "${_U-KeKai}", "display", 'block', { fromValue: 'none'}], position: 30000, duration: 0 },
             { id: "eid410", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'block'}], position: 32000, duration: 0 },
+            { id: "eid612", tween: [ "style", "${_T-HuiChu}", "top", '56.52%', { fromValue: '-16.92%'}], position: 43500, duration: 500 },
+            { id: "eid615", tween: [ "style", "${_T-HuiChu}", "top", '66.68%', { fromValue: '56.52%'}], position: 44000, duration: 1000 },
+            { id: "eid618", tween: [ "style", "${_T-HuiChu}", "top", '-16.92%', { fromValue: '66.68%'}], position: 45000, duration: 500 },
+            { id: "eid621", tween: [ "style", "${_U-HuiChu}", "left", '100%', { fromValue: '53.16%'}], position: 45000, duration: 500 },
             { id: "eid355", tween: [ "style", "${_T-XsummerXia}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid325", tween: [ "style", "${_T-XsummerXia}", "display", 'block', { fromValue: 'none'}], position: 26750, duration: 0 },
             { id: "eid353", tween: [ "style", "${_T-XsummerXia}", "display", 'none', { fromValue: 'block'}], position: 29000, duration: 0 },
@@ -886,6 +925,9 @@ var symbols = {
             { id: "eid286", tween: [ "style", "${_U-JiaDaHao}", "display", 'none', { fromValue: 'block'}], position: 25500, duration: 0 },
             { id: "eid306", tween: [ "style", "${_U-TonyZhao}", "top", '3.72%', { fromValue: '100%'}], position: 25000, duration: 500 },
             { id: "eid318", tween: [ "style", "${_U-TonyZhao}", "top", '100%', { fromValue: '3.72%'}], position: 26750, duration: 500 },
+            { id: "eid623", tween: [ "style", "${_T-HuiChu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid606", tween: [ "style", "${_T-HuiChu}", "display", 'block', { fromValue: 'none'}], position: 43500, duration: 0 },
+            { id: "eid619", tween: [ "style", "${_T-HuiChu}", "display", 'none', { fromValue: 'block'}], position: 45500, duration: 0 },
             { id: "eid276", tween: [ "style", "${_T-JiaDaHao}", "top", '61.71%', { fromValue: '100%'}], position: 23500, duration: 500 },
             { id: "eid283", tween: [ "style", "${_T-JiaDaHao}", "top", '54.94%', { fromValue: '61.71%'}], position: 24000, duration: 1000 },
             { id: "eid290", tween: [ "style", "${_T-JiaDaHao}", "top", '-24.21%', { fromValue: '54.94%'}], position: 25000, duration: 500 },
@@ -943,6 +985,11 @@ var symbols = {
             { id: "eid255", tween: [ "style", "${_T-XuShu}", "left", '62.79%', { fromValue: '100%'}], position: 22000, duration: 500 },
             { id: "eid259", tween: [ "style", "${_T-XuShu}", "left", '65.29%', { fromValue: '62.79%'}], position: 22500, duration: 1000 },
             { id: "eid264", tween: [ "style", "${_T-XuShu}", "left", '100%', { fromValue: '65.29%'}], position: 23500, duration: 500 },
+            { id: "eid613", tween: [ "style", "${_U-HuiChu}", "top", '3.26%', { fromValue: '100%'}], position: 43500, duration: 500 },
+            { id: "eid614", tween: [ "style", "${_U-HuiChu}", "top", '-148.12%', { fromValue: '3.26%'}], position: 44000, duration: 1000 },
+            { id: "eid622", tween: [ "style", "${_U-HuiChu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid607", tween: [ "style", "${_U-HuiChu}", "display", 'block', { fromValue: 'none'}], position: 43500, duration: 0 },
+            { id: "eid617", tween: [ "style", "${_U-HuiChu}", "display", 'none', { fromValue: 'block'}], position: 45500, duration: 0 },
             { id: "eid439", tween: [ "style", "${_U-slb1}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid420", tween: [ "style", "${_U-slb1}", "display", 'block', { fromValue: 'none'}], position: 31500, duration: 0 },
             { id: "eid437", tween: [ "style", "${_U-slb1}", "display", 'none', { fromValue: 'block'}], position: 33500, duration: 0 },
