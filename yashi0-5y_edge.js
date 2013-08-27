@@ -374,6 +374,24 @@ var symbols = {
             fill:["rgba(0,0,0,0)",im+"U-johnnyJo.png",'0px','0px']
          },
          {
+            id:'T-DaisukeMineko',
+            display:'none',
+            type:'text',
+            rect:['100%','59.6%','41%','14.8%','auto','auto'],
+            cursor:['help'],
+            text:"Top19<br>+Daisuke Mineko (米喵子)",
+            align:"left",
+            font:['Arial, Helvetica, sans-serif',[300,"%"],"rgba(255,255,255,1)","normal","none","normal"],
+            textShadow:["rgba(255,255,0,1.00)",0,3,15]
+         },
+         {
+            id:'U-DaisukeMineko',
+            display:'none',
+            type:'image',
+            rect:['-51.2%','3.9%','51.2%','96.1%','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"U-DaisukeMineko.png",'0px','0px']
+         },
+         {
             id:'TitleBar',
             type:'rect',
             rect:['0px','0px','100%','30px','auto','auto'],
@@ -623,6 +641,13 @@ var symbols = {
             ["style", "left", '-54.05%'],
             ["style", "width", '53.82%']
          ],
+         "${_U-DaisukeMineko}": [
+            ["style", "top", '3.91%'],
+            ["style", "height", '96.05%'],
+            ["style", "display", 'none'],
+            ["style", "left", '-51.18%'],
+            ["style", "width", '51.18%']
+         ],
          "${_T-fzs}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
@@ -680,6 +705,18 @@ var symbols = {
             ["style", "display", 'none'],
             ["style", "left", '100%'],
             ["style", "width", '53.91%']
+         ],
+         "${_T-DaisukeMineko}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '3px'],
+            ["style", "left", '100%'],
+            ["style", "width", '49.12%'],
+            ["style", "top", '59.63%'],
+            ["style", "height", '22.13%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "display", 'none'],
+            ["style", "cursor", 'help']
          ],
          "${_T-TonyZhao}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -825,7 +862,7 @@ var symbols = {
       "Default Timeline": {
          fromState: "Base State",
          toState: "",
-         duration: 42500,
+         duration: 44000,
          autoPlay: true,
          timeline: [
             { id: "eid417", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
@@ -945,13 +982,28 @@ var symbols = {
             { id: "eid445", tween: [ "style", "${_T-Sora}", "left", '49.41%', { fromValue: '-38.97%'}], position: 33000, duration: 500 },
             { id: "eid452", tween: [ "style", "${_T-Sora}", "left", '57.57%', { fromValue: '49.41%'}], position: 33500, duration: 1000 },
             { id: "eid458", tween: [ "style", "${_T-Sora}", "left", '100%', { fromValue: '57.57%'}], position: 34500, duration: 500 },
+            { id: "eid427", tween: [ "style", "${_U-slb1}", "left", '-2.13%', { fromValue: '-64.93%'}], position: 31500, duration: 500 },
+            { id: "eid430", tween: [ "style", "${_U-slb1}", "left", '0%', { fromValue: '-2.13%'}], position: 32000, duration: 1000 },
+            { id: "eid433", tween: [ "style", "${_U-slb1}", "left", '-64.94%', { fromValue: '0%'}], position: 33000, duration: 500 },
             { id: "eid390", tween: [ "style", "${_U-YookkeiLau}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid356", tween: [ "style", "${_U-YookkeiLau}", "display", 'block', { fromValue: 'none'}], position: 28500, duration: 0 },
             { id: "eid383", tween: [ "style", "${_U-YookkeiLau}", "display", 'none', { fromValue: 'block'}], position: 30500, duration: 0 },
+            { id: "eid604", tween: [ "style", "${_T-DaisukeMineko}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid588", tween: [ "style", "${_T-DaisukeMineko}", "display", 'block', { fromValue: 'none'}], position: 42000, duration: 0 },
+            { id: "eid602", tween: [ "style", "${_T-DaisukeMineko}", "display", 'none', { fromValue: 'block'}], position: 44000, duration: 0 },
+            { id: "eid590", tween: [ "style", "${_T-DaisukeMineko}", "left", '11.76%', { fromValue: '100%'}], position: 42000, duration: 500 },
+            { id: "eid594", tween: [ "style", "${_T-DaisukeMineko}", "left", '7.79%', { fromValue: '11.76%'}], position: 42500, duration: 1000 },
+            { id: "eid598", tween: [ "style", "${_T-DaisukeMineko}", "left", '100%', { fromValue: '7.79%'}], position: 43500, duration: 500 },
             { id: "eid125", tween: [ "style", "${_TXT-Title1}", "top", '100%', { fromValue: '25%'}], position: 16500, duration: 1000 },
             { id: "eid563", tween: [ "style", "${_T-kirikakuMori}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid547", tween: [ "style", "${_T-kirikakuMori}", "display", 'block', { fromValue: 'none'}], position: 39000, duration: 0 },
             { id: "eid558", tween: [ "style", "${_T-kirikakuMori}", "display", 'none', { fromValue: 'block'}], position: 41000, duration: 0 },
+            { id: "eid603", tween: [ "style", "${_U-DaisukeMineko}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid586", tween: [ "style", "${_U-DaisukeMineko}", "display", 'block', { fromValue: 'none'}], position: 42000, duration: 0 },
+            { id: "eid601", tween: [ "style", "${_U-DaisukeMineko}", "display", 'none', { fromValue: 'block'}], position: 44000, duration: 0 },
+            { id: "eid589", tween: [ "style", "${_U-DaisukeMineko}", "left", '45.44%', { fromValue: '-51.18%'}], position: 42000, duration: 500 },
+            { id: "eid593", tween: [ "style", "${_U-DaisukeMineko}", "left", '48.82%', { fromValue: '45.44%'}], position: 42500, duration: 1000 },
+            { id: "eid597", tween: [ "style", "${_U-DaisukeMineko}", "left", '-51.18%', { fromValue: '48.82%'}], position: 43500, duration: 500 },
             { id: "eid463", tween: [ "style", "${_T-Sora}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid444", tween: [ "style", "${_T-Sora}", "display", 'block', { fromValue: 'none'}], position: 33000, duration: 0 },
             { id: "eid456", tween: [ "style", "${_T-Sora}", "display", 'none', { fromValue: 'block'}], position: 35000, duration: 0 },
@@ -1006,9 +1058,6 @@ var symbols = {
             { id: "eid399", tween: [ "style", "${_U-KeKai}", "top", '9.63%', { fromValue: '100%'}], position: 30000, duration: 500 },
             { id: "eid408", tween: [ "style", "${_U-KeKai}", "top", '4.82%', { fromValue: '9.63%'}], position: 30500, duration: 1000 },
             { id: "eid416", tween: [ "style", "${_U-KeKai}", "top", '100%', { fromValue: '4.82%'}], position: 31500, duration: 500 },
-            { id: "eid427", tween: [ "style", "${_U-slb1}", "left", '-2.13%', { fromValue: '-64.93%'}], position: 31500, duration: 500 },
-            { id: "eid430", tween: [ "style", "${_U-slb1}", "left", '0%', { fromValue: '-2.13%'}], position: 32000, duration: 1000 },
-            { id: "eid433", tween: [ "style", "${_U-slb1}", "left", '-64.94%', { fromValue: '0%'}], position: 33000, duration: 500 },
             { id: "eid46", tween: [ "style", "${_gp13-3}", "display", 'none', { fromValue: 'block'}], position: 4000, duration: 0 },
             { id: "eid507", tween: [ "style", "${_U-MountainChen}", "left", '-3.38%', { fromValue: '-54.56%'}], position: 36000, duration: 500 },
             { id: "eid511", tween: [ "style", "${_U-MountainChen}", "left", '0%', { fromValue: '-3.38%'}], position: 36500, duration: 1000 },
