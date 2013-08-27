@@ -249,6 +249,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_T-Wenli}", "click", function(sym, e) {
+         window.open("https://plus.google.com/+神楽坂雯麗/about", "_new");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_T-LanLan}", "click", function(sym, e) {
+         window.open("https://plus.google.com/108166216767915380992/about", "_new");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_T-MioAkiyama}", "click", function(sym, e) {
+         window.open("https://plus.google.com/112406448635938550505/about", "_new");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
