@@ -189,6 +189,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_T-YouLan}", "click", function(sym, e) {
+         window.open("https://plus.google.com/102725466404235496819/about", "_self");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
