@@ -22,22 +22,22 @@
 	"pref__general__FilterNonAnimatedElements":"false",
 	"viewStartY":"0",
 	"pixelsPerMs":"0.14800562954352",
-	"viewStartMs":"64651.871350036",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
-	"stage-Default Timeline_playhead_ms":"65000",
+	"viewStartMs":"82151.871350036",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"stage-Default Timeline_playhead_ms":"82500",
 	"symbol_Preloader":{
 		"defaultStageParentWidth":"1360px",
 		"defaultStageParentHeight":"768px",
 		"dummyStageParentWidth":"1360px",
 		"dummyStageParentHeight":"768px"},
-	"TransitionIdCounter":"836",
+	"TransitionIdCounter":"961",
 	"CompZoomFactor":"100",
 	"StageZoomFactor":"50",
 	"colorSwatches":"rgba(250,177,255,1.00)|rgba(255,255,0,1.00)",
 	"pref__general__TimelineShowGrid":"false",
 	"usedBOM":"false",
 	"stage-Default Timeline_mark_ms":"-1",
-	"nextElementColorIndex":"2",
+	"nextElementColorIndex":"12",
 	"pref__general__GenerateSmoothTransitions":"true",
 	"symbol_Down-level":{
 		"defaultStageParentWidth":"1360px",
@@ -160,6 +160,16 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"},
+		"element_${_Text24}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
+		"element_${_T-XueYin}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"true",
+			"timelineColor":"0x2f73ad"},
 		"element_${_U-Sora}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
@@ -185,6 +195,11 @@
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"true",
 			"timelineColor":"0x00bda4"},
+		"element_${_Text25}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
 		"defaultStageParentWidth":"1360px",
 		"element_${_TXT-JianYiShiYong}":{
 			"timelineColor2":"0x168c84",
@@ -196,11 +211,25 @@
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
+		"element_${_T-KT}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"true",
+			"timelineColor":"0x00bda4"},
+		"element_${_Text23}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
 		"element_${_T-KeKai}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
 			"animationEnabled":"true",
 			"timelineColor":"0x00a9fa"},
+		"element_${_U-TianShiHui}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
 		"element_${_T-kirikakuMori}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
@@ -221,6 +250,26 @@
 			"timelineColor3":"0x29647e",
 			"animationEnabled":"true",
 			"timelineColor":"0x00a9fa"},
+		"element_${_U-Wenli}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"true",
+			"timelineColor":"0xceaef4"},
+		"element_${_U-XiaoJiu}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
+		"element_${_T-XiaoJiu}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"element_${_T-WuYue}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
 		"element_${_U-Ji}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
@@ -322,6 +371,11 @@
 			"timelineColor3":"0x295a6d",
 			"animationEnabled":"true",
 			"timelineColor":"0x008dc8"},
+		"element_${_U-KT}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"true",
+			"timelineColor":"0x00a096"},
 		"element_${_T-TonyZhao}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
@@ -367,11 +421,11 @@
 			"timelineColor3":"0x385063",
 			"animationEnabled":"true",
 			"timelineColor":"0x2f73ad"},
-		"element_${_U-TianShiHui}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
+		"element_${_U-XueYin}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
 			"animationEnabled":"true",
-			"timelineColor":"0x50bd82"},
+			"timelineColor":"0x00a9fa"},
 		"dummyStageParentHeight":"768px",
 		"element_${_T-HuiChu}":{
 			"timelineColor2":"0xd8b467",
@@ -438,10 +492,5 @@
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"element_${_T-WuYue}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"true",
-			"timelineColor":"0x63599f"}},
+			"timelineColor":"0x00a9fa"}},
 	"Down-level-Default Timeline_playhead_ms":"0"}

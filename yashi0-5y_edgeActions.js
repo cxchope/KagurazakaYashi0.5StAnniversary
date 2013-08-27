@@ -219,6 +219,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_T-XiaoJiu}", "click", function(sym, e) {
+         window.open("https://plus.google.com/114226114136661643726/about", "_new");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_T-KT}", "click", function(sym, e) {
+         window.open("https://plus.google.com/115765981820089103895/about", "_new");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_T-XueYin}", "click", function(sym, e) {
+         window.open("https://plus.google.com/113583019971127595098/about", "_new");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
