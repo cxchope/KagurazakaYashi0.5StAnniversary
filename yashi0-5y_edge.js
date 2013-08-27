@@ -569,6 +569,24 @@ var symbols = {
             fill:["rgba(0,0,0,0)",im+"U-LanLan.png",'0px','0px']
          },
          {
+            id:'T-WangZhongYu',
+            display:'none',
+            type:'text',
+            rect:['100%','15.9%','42.4%','20.6%','auto','auto'],
+            cursor:['help'],
+            text:"Top 8<br>+王仲宇（神楽坂宇軒）",
+            align:"left",
+            font:['Arial, Helvetica, sans-serif',[300,"%"],"rgba(255,255,0,1)","normal","none","italic"],
+            textShadow:["rgba(250,177,255,1.00)",0,0,15]
+         },
+         {
+            id:'U-WangZhongYu',
+            display:'none',
+            type:'image',
+            rect:['-78%','3.9%','78%','95.8%','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"U-WangZhongYu.png",'0px','0px']
+         },
+         {
             id:'TitleBar',
             type:'rect',
             rect:['0px','0px','100%','30px','auto','auto'],
@@ -756,6 +774,18 @@ var symbols = {
             ["style", "height", '96.35%'],
             ["style", "left", '-64.93%'],
             ["style", "width", '64.94%']
+         ],
+         "${_T-WangZhongYu}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "cursor", 'help'],
+            ["style", "width", '42.36%'],
+            ["style", "top", '15.89%'],
+            ["style", "height", '20.57%'],
+            ["subproperty", "textShadow.color", 'rgba(250,177,255,1.00)'],
+            ["style", "display", 'none'],
+            ["style", "left", '100%']
          ],
          "${_T-MioAkiyama}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -1047,6 +1077,13 @@ var symbols = {
             ["style", "left", '0%'],
             ["style", "height", '138.54%']
          ],
+         "${_U-WangZhongYu}": [
+            ["style", "top", '3.91%'],
+            ["style", "height", '95.78%'],
+            ["style", "display", 'none'],
+            ["style", "left", '-78.01%'],
+            ["style", "width", '78.02%']
+         ],
          "${_TitleBar}": [
             ["style", "height", '30px'],
             ["color", "background-color", 'rgba(0,0,0,1.00)'],
@@ -1223,7 +1260,7 @@ var symbols = {
       "Default Timeline": {
          fromState: "Base State",
          toState: "",
-         duration: 60000,
+         duration: 62000,
          autoPlay: true,
          timeline: [
             { id: "eid628", tween: [ "style", "${_T-TianShiHui}", "left", '59.42%', { fromValue: '-13.08%'}], position: 45000, duration: 500 },
@@ -1371,6 +1408,9 @@ var symbols = {
             { id: "eid417", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid392", tween: [ "style", "${_U-KeKai}", "display", 'block', { fromValue: 'none'}], position: 30000, duration: 0 },
             { id: "eid410", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'block'}], position: 32000, duration: 0 },
+            { id: "eid770", tween: [ "style", "${_U-WangZhongYu}", "left", '21.98%', { fromValue: '-78.01%'}], position: 59500, duration: 500 },
+            { id: "eid775", tween: [ "style", "${_U-WangZhongYu}", "left", '25.66%', { fromValue: '21.98%'}], position: 60000, duration: 1500 },
+            { id: "eid776", tween: [ "style", "${_U-WangZhongYu}", "left", '100%', { fromValue: '25.66%'}], position: 61500, duration: 500 },
             { id: "eid355", tween: [ "style", "${_T-XsummerXia}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid325", tween: [ "style", "${_T-XsummerXia}", "display", 'block', { fromValue: 'none'}], position: 26750, duration: 0 },
             { id: "eid353", tween: [ "style", "${_T-XsummerXia}", "display", 'none', { fromValue: 'block'}], position: 29000, duration: 0 },
@@ -1451,6 +1491,9 @@ var symbols = {
             { id: "eid551", tween: [ "style", "${_U-kirikakuMori}", "left", '56.91%', { fromValue: '-25.15%'}], position: 39000, duration: 500 },
             { id: "eid555", tween: [ "style", "${_U-kirikakuMori}", "left", '61.32%', { fromValue: '56.91%'}], position: 39500, duration: 1000 },
             { id: "eid561", tween: [ "style", "${_U-kirikakuMori}", "left", '100%', { fromValue: '61.32%'}], position: 40500, duration: 500 },
+            { id: "eid781", tween: [ "style", "${_T-WangZhongYu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid769", tween: [ "style", "${_T-WangZhongYu}", "display", 'block', { fromValue: 'none'}], position: 59500, duration: 0 },
+            { id: "eid779", tween: [ "style", "${_T-WangZhongYu}", "display", 'none', { fromValue: 'block'}], position: 62000, duration: 0 },
             { id: "eid637", tween: [ "style", "${_T-TianShiHui}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid626", tween: [ "style", "${_T-TianShiHui}", "display", 'block', { fromValue: 'none'}], position: 45000, duration: 0 },
             { id: "eid635", tween: [ "style", "${_T-TianShiHui}", "display", 'none', { fromValue: 'block'}], position: 47000, duration: 0 },
@@ -1469,6 +1512,12 @@ var symbols = {
             { id: "eid445", tween: [ "style", "${_T-Sora}", "left", '49.41%', { fromValue: '-38.97%'}], position: 33000, duration: 500 },
             { id: "eid452", tween: [ "style", "${_T-Sora}", "left", '57.57%', { fromValue: '49.41%'}], position: 33500, duration: 1000 },
             { id: "eid458", tween: [ "style", "${_T-Sora}", "left", '100%', { fromValue: '57.57%'}], position: 34500, duration: 500 },
+            { id: "eid771", tween: [ "style", "${_T-WangZhongYu}", "left", '12.65%', { fromValue: '100%'}], position: 59500, duration: 500 },
+            { id: "eid774", tween: [ "style", "${_T-WangZhongYu}", "left", '6.91%', { fromValue: '12.65%'}], position: 60000, duration: 1500 },
+            { id: "eid777", tween: [ "style", "${_T-WangZhongYu}", "left", '-39.71%', { fromValue: '6.91%'}], position: 61500, duration: 500 },
+            { id: "eid780", tween: [ "style", "${_U-WangZhongYu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid766", tween: [ "style", "${_U-WangZhongYu}", "display", 'block', { fromValue: 'none'}], position: 59500, duration: 0 },
+            { id: "eid778", tween: [ "style", "${_U-WangZhongYu}", "display", 'none', { fromValue: 'block'}], position: 62000, duration: 0 },
             { id: "eid658", tween: [ "style", "${_T-MioAkiyama}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid642", tween: [ "style", "${_T-MioAkiyama}", "display", 'block', { fromValue: 'none'}], position: 46500, duration: 0 },
             { id: "eid656", tween: [ "style", "${_T-MioAkiyama}", "display", 'none', { fromValue: 'block'}], position: 48500, duration: 0 },
