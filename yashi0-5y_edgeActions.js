@@ -129,6 +129,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_T-kirikakuMori}", "click", function(sym, e) {
+         window.open("https://plus.google.com/107463518008312765564/about", "_self");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
