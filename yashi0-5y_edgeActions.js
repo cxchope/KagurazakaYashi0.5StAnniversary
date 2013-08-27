@@ -165,6 +165,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_T-BunnyLiu}", "click", function(sym, e) {
+         window.open("https://plus.google.com/116739339917177742020/about", "_new");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
