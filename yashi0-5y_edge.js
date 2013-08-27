@@ -441,8 +441,26 @@ var symbols = {
             id:'U-MioAkiyama',
             display:'none',
             type:'image',
-            rect:['-656px','768px','656px','639px','auto','auto'],
+            rect:['-48.2%','100%','48.2%','83.2%','auto','auto'],
             fill:["rgba(0,0,0,0)",im+"U-MioAkiyama.png",'0px','0px']
+         },
+         {
+            id:'T-SakuraChino',
+            display:'none',
+            type:'text',
+            rect:['4%','-17.6%','55.4%','21.5%','auto','auto'],
+            cursor:['help'],
+            text:"Top15<br>+Sakura Chino (チノ桜 小雅)",
+            align:"left",
+            font:['Arial, Helvetica, sans-serif',[300,"%"],"rgba(255,255,255,1)","normal","none","normal"],
+            textShadow:["rgba(255,255,0,1.00)",0,0,15]
+         },
+         {
+            id:'U-SakuraChino',
+            display:'none',
+            type:'image',
+            rect:['100%','3.9%','54.3%','96.1%','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"U-SakuraChino.png",'0px','0px']
          },
          {
             id:'TitleBar',
@@ -586,6 +604,25 @@ var symbols = {
             ["style", "display", 'none'],
             ["style", "cursor", 'help']
          ],
+         "${_U-SakuraChino}": [
+            ["style", "top", '3.91%'],
+            ["style", "height", '96.09%'],
+            ["style", "display", 'none'],
+            ["style", "left", '100%'],
+            ["style", "width", '54.28%']
+         ],
+         "${_T-SakuraChino}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '3.97%'],
+            ["style", "width", '55.38%'],
+            ["style", "top", '-17.57%'],
+            ["style", "height", '21.48%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "display", 'none'],
+            ["style", "cursor", 'help']
+         ],
          "${_T-ARIAAOI}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
@@ -649,8 +686,8 @@ var symbols = {
             ["style", "display", 'none']
          ],
          "${_U-MioAkiyama}": [
-            ["style", "top", '768px'],
-            ["style", "left", '-656px'],
+            ["style", "top", '100%'],
+            ["style", "left", '-48.24%'],
             ["style", "display", 'none']
          ],
          "${_T-XuShu}": [
@@ -969,7 +1006,7 @@ var symbols = {
       "Default Timeline": {
          fromState: "Base State",
          toState: "",
-         duration: 48500,
+         duration: 50250,
          autoPlay: true,
          timeline: [
             { id: "eid628", tween: [ "style", "${_T-TianShiHui}", "left", '59.42%', { fromValue: '-13.08%'}], position: 45000, duration: 500 },
@@ -978,9 +1015,9 @@ var symbols = {
             { id: "eid417", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid392", tween: [ "style", "${_U-KeKai}", "display", 'block', { fromValue: 'none'}], position: 30000, duration: 0 },
             { id: "eid410", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'block'}], position: 32000, duration: 0 },
-            { id: "eid645", tween: [ "style", "${_U-MioAkiyama}", "top", '159px', { fromValue: '768px'}], position: 46500, duration: 500 },
-            { id: "eid647", tween: [ "style", "${_U-MioAkiyama}", "top", '129px', { fromValue: '159px'}], position: 47000, duration: 1000 },
-            { id: "eid653", tween: [ "style", "${_U-MioAkiyama}", "top", '768px', { fromValue: '129px'}], position: 48000, duration: 500 },
+            { id: "eid645", tween: [ "style", "${_U-MioAkiyama}", "top", '20.7%', { fromValue: '100%'}], position: 46500, duration: 500 },
+            { id: "eid647", tween: [ "style", "${_U-MioAkiyama}", "top", '16.8%', { fromValue: '20.7%'}], position: 47000, duration: 1000 },
+            { id: "eid653", tween: [ "style", "${_U-MioAkiyama}", "top", '100%', { fromValue: '16.8%'}], position: 48000, duration: 500 },
             { id: "eid612", tween: [ "style", "${_T-HuiChu}", "top", '56.52%', { fromValue: '-16.92%'}], position: 43500, duration: 500 },
             { id: "eid615", tween: [ "style", "${_T-HuiChu}", "top", '66.68%', { fromValue: '56.52%'}], position: 44000, duration: 1000 },
             { id: "eid618", tween: [ "style", "${_T-HuiChu}", "top", '-16.92%', { fromValue: '66.68%'}], position: 45000, duration: 500 },
@@ -1009,6 +1046,9 @@ var symbols = {
             { id: "eid276", tween: [ "style", "${_T-JiaDaHao}", "top", '61.71%', { fromValue: '100%'}], position: 23500, duration: 500 },
             { id: "eid283", tween: [ "style", "${_T-JiaDaHao}", "top", '54.94%', { fromValue: '61.71%'}], position: 24000, duration: 1000 },
             { id: "eid290", tween: [ "style", "${_T-JiaDaHao}", "top", '-24.21%', { fromValue: '54.94%'}], position: 25000, duration: 500 },
+            { id: "eid665", tween: [ "style", "${_T-SakuraChino}", "top", '56.39%', { fromValue: '-17.57%'}], position: 48000, duration: 500 },
+            { id: "eid668", tween: [ "style", "${_T-SakuraChino}", "top", '67.33%', { fromValue: '56.39%'}], position: 48500, duration: 1250 },
+            { id: "eid670", tween: [ "style", "${_T-SakuraChino}", "top", '100%', { fromValue: '67.33%'}], position: 49750, duration: 500 },
             { id: "eid335", tween: [ "style", "${_T-XsummerXia}", "top", '64.58%', { fromValue: '-18.49%'}], position: 26750, duration: 500 },
             { id: "eid341", tween: [ "style", "${_T-XsummerXia}", "top", '69.01%', { fromValue: '64.58%'}], position: 27250, duration: 1250 },
             { id: "eid348", tween: [ "style", "${_T-XsummerXia}", "top", '100%', { fromValue: '69.01%'}], position: 28500, duration: 500 },
@@ -1037,11 +1077,13 @@ var symbols = {
             { id: "eid351", tween: [ "style", "${_U-XsummerXia}", "left", '100%', { fromValue: '56.1%'}], position: 28500, duration: 500 },
             { id: "eid112", tween: [ "style", "${_TXT-Title2}", "top", '72.53%', { fromValue: '72.53%'}], position: 12500, duration: 0 },
             { id: "eid118", tween: [ "style", "${_TXT-Title2}", "top", '-19.27%', { fromValue: '72.53%'}], position: 16000, duration: 1000 },
-            { id: "eid644", tween: [ "style", "${_U-MioAkiyama}", "left", '-32px', { fromValue: '-656px'}], position: 46500, duration: 500 },
-            { id: "eid646", tween: [ "style", "${_U-MioAkiyama}", "left", '0px', { fromValue: '-32px'}], position: 47000, duration: 1000 },
-            { id: "eid652", tween: [ "style", "${_U-MioAkiyama}", "left", '-656px', { fromValue: '0px'}], position: 48000, duration: 500 },
+            { id: "eid644", tween: [ "style", "${_U-MioAkiyama}", "left", '-2.35%', { fromValue: '-48.24%'}], position: 46500, duration: 500 },
+            { id: "eid646", tween: [ "style", "${_U-MioAkiyama}", "left", '0%', { fromValue: '-2.35%'}], position: 47000, duration: 1000 },
+            { id: "eid652", tween: [ "style", "${_U-MioAkiyama}", "left", '-48.24%', { fromValue: '0%'}], position: 48000, duration: 500 },
             { id: "eid109", tween: [ "style", "${__2012102321505821}", "top", '3.26%', { fromValue: '-38.54%'}], position: 0, duration: 12000 },
             { id: "eid122", tween: [ "style", "${__2012102321505821}", "top", '-38.54%', { fromValue: '3.26%'}], position: 16000, duration: 1500 },
+            { id: "eid613", tween: [ "style", "${_U-HuiChu}", "top", '3.26%', { fromValue: '100%'}], position: 43500, duration: 500 },
+            { id: "eid614", tween: [ "style", "${_U-HuiChu}", "top", '-148.12%', { fromValue: '3.26%'}], position: 44000, duration: 1000 },
             { id: "eid470", tween: [ "style", "${_U-fzs}", "left", '-1.17%', { fromValue: '-24.56%'}], position: 34500, duration: 500 },
             { id: "eid488", tween: [ "style", "${_U-fzs}", "left", '-0.05%', { fromValue: '-1.17%'}], position: 35000, duration: 1000 },
             { id: "eid493", tween: [ "style", "${_U-fzs}", "left", '-25.3%', { fromValue: '-0.05%'}], position: 36000, duration: 500 },
@@ -1051,6 +1093,12 @@ var symbols = {
             { id: "eid277", tween: [ "style", "${_U-JiaDaHao}", "top", '-54.1%', { fromValue: '-150.91%'}], position: 23500, duration: 500 },
             { id: "eid285", tween: [ "style", "${_U-JiaDaHao}", "top", '20.58%', { fromValue: '-54.1%'}], position: 24000, duration: 1000 },
             { id: "eid292", tween: [ "style", "${_U-JiaDaHao}", "top", '100%', { fromValue: '20.58%'}], position: 25000, duration: 500 },
+            { id: "eid268", tween: [ "style", "${_T-XuShu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid249", tween: [ "style", "${_T-XuShu}", "display", 'block', { fromValue: 'none'}], position: 22000, duration: 0 },
+            { id: "eid262", tween: [ "style", "${_T-XuShu}", "display", 'none', { fromValue: 'block'}], position: 24000, duration: 0 },
+            { id: "eid666", tween: [ "style", "${_U-SakuraChino}", "left", '48.82%', { fromValue: '100%'}], position: 48000, duration: 500 },
+            { id: "eid667", tween: [ "style", "${_U-SakuraChino}", "left", '45.72%', { fromValue: '48.82%'}], position: 48500, duration: 1250 },
+            { id: "eid669", tween: [ "style", "${_U-SakuraChino}", "left", '-54.28%', { fromValue: '45.72%'}], position: 49750, duration: 500 },
             { id: "eid604", tween: [ "style", "${_T-DaisukeMineko}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid588", tween: [ "style", "${_T-DaisukeMineko}", "display", 'block', { fromValue: 'none'}], position: 42000, duration: 0 },
             { id: "eid602", tween: [ "style", "${_T-DaisukeMineko}", "display", 'none', { fromValue: 'block'}], position: 44000, duration: 0 },
@@ -1085,8 +1133,9 @@ var symbols = {
             { id: "eid255", tween: [ "style", "${_T-XuShu}", "left", '62.79%', { fromValue: '100%'}], position: 22000, duration: 500 },
             { id: "eid259", tween: [ "style", "${_T-XuShu}", "left", '65.29%', { fromValue: '62.79%'}], position: 22500, duration: 1000 },
             { id: "eid264", tween: [ "style", "${_T-XuShu}", "left", '100%', { fromValue: '65.29%'}], position: 23500, duration: 500 },
-            { id: "eid613", tween: [ "style", "${_U-HuiChu}", "top", '3.26%', { fromValue: '100%'}], position: 43500, duration: 500 },
-            { id: "eid614", tween: [ "style", "${_U-HuiChu}", "top", '-148.12%', { fromValue: '3.26%'}], position: 44000, duration: 1000 },
+            { id: "eid674", tween: [ "style", "${_T-SakuraChino}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid662", tween: [ "style", "${_T-SakuraChino}", "display", 'block', { fromValue: 'none'}], position: 48000, duration: 0 },
+            { id: "eid672", tween: [ "style", "${_T-SakuraChino}", "display", 'none', { fromValue: 'block'}], position: 50250, duration: 0 },
             { id: "eid622", tween: [ "style", "${_U-HuiChu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid607", tween: [ "style", "${_U-HuiChu}", "display", 'block', { fromValue: 'none'}], position: 43500, duration: 0 },
             { id: "eid617", tween: [ "style", "${_U-HuiChu}", "display", 'none', { fromValue: 'block'}], position: 45500, duration: 0 },
@@ -1240,9 +1289,9 @@ var symbols = {
             { id: "eid418", tween: [ "style", "${_T-KeKai}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid394", tween: [ "style", "${_T-KeKai}", "display", 'block', { fromValue: 'none'}], position: 30000, duration: 0 },
             { id: "eid412", tween: [ "style", "${_T-KeKai}", "display", 'none', { fromValue: 'block'}], position: 32000, duration: 0 },
-            { id: "eid268", tween: [ "style", "${_T-XuShu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-            { id: "eid249", tween: [ "style", "${_T-XuShu}", "display", 'block', { fromValue: 'none'}], position: 22000, duration: 0 },
-            { id: "eid262", tween: [ "style", "${_T-XuShu}", "display", 'none', { fromValue: 'block'}], position: 24000, duration: 0 }         ]
+            { id: "eid673", tween: [ "style", "${_U-SakuraChino}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid660", tween: [ "style", "${_U-SakuraChino}", "display", 'block', { fromValue: 'none'}], position: 48000, duration: 0 },
+            { id: "eid671", tween: [ "style", "${_U-SakuraChino}", "display", 'none', { fromValue: 'block'}], position: 50250, duration: 0 }         ]
       }
    }
 }
