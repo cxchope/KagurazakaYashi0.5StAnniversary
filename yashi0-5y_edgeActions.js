@@ -243,6 +243,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_Text}", "click", function(sym, e) {
+         window.open("https://github.com/cxchope/KagurazakaYashi0.5StAnniversary", "_new");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
