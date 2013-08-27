@@ -517,6 +517,24 @@ var symbols = {
             fill:["rgba(0,0,0,0)",im+"U-YiYing.png",'0px','0px']
          },
          {
+            id:'T-QiHui',
+            display:'none',
+            type:'text',
+            rect:['-35.5%','64.6%','35.5%','23.8%','auto','auto'],
+            cursor:['help'],
+            text:"Top11<br>+七繪ナナ（奈菜）",
+            align:"left",
+            font:['Arial, Helvetica, sans-serif',[300,"%"],"rgba(255,255,255,1)","normal","none","normal"],
+            textShadow:["rgba(255,255,0,1.00)",0,0,15]
+         },
+         {
+            id:'U-QiHui',
+            display:'none',
+            type:'image',
+            rect:['100%','19.2%','34.5%','80.8%','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"U-QiHui.png",'0px','0px']
+         },
+         {
             id:'TitleBar',
             type:'rect',
             rect:['0px','0px','100%','30px','auto','auto'],
@@ -566,6 +584,53 @@ var symbols = {
             ["style", "height", '22.27%'],
             ["style", "left", '100.44%']
          ],
+         "${_U-MioAkiyama}": [
+            ["style", "top", '100%'],
+            ["style", "left", '-48.24%'],
+            ["style", "display", 'none']
+         ],
+         "${_T-QiHui}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '-35.52%'],
+            ["style", "width", '35.52%'],
+            ["style", "top", '64.59%'],
+            ["style", "height", '23.83%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "display", 'none'],
+            ["style", "cursor", 'help']
+         ],
+         "${_U-Sora}": [
+            ["style", "top", '3.26%'],
+            ["style", "display", 'none'],
+            ["style", "height", '96.08%'],
+            ["style", "left", '-53.39%'],
+            ["style", "width", '54.35%']
+         ],
+         "${_U-DaisukeMineko}": [
+            ["style", "top", '3.91%'],
+            ["style", "height", '96.05%'],
+            ["style", "display", 'none'],
+            ["style", "left", '-51.18%'],
+            ["style", "width", '51.18%']
+         ],
+         "${_T-kirikakuMori}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '100%'],
+            ["style", "width", '30.45%'],
+            ["style", "top", '63.41%'],
+            ["style", "height", '20.18%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "display", 'none'],
+            ["style", "cursor", 'help']
+         ],
+         "${_U-LenChan}": [
+            ["style", "top", '5.47%'],
+            ["style", "left", '-39.49%'],
+            ["style", "display", 'none']
+         ],
          "${_T-KeKai}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
@@ -578,6 +643,13 @@ var symbols = {
             ["style", "cursor", 'help'],
             ["style", "display", 'none']
          ],
+         "${_U-QiHui}": [
+            ["style", "top", '19.24%'],
+            ["style", "height", '80.76%'],
+            ["style", "display", 'none'],
+            ["style", "left", '100%'],
+            ["style", "width", '34.49%']
+         ],
          "${_U-YiYing}": [
             ["style", "top", '4.74%'],
             ["style", "height", '95.26%'],
@@ -585,76 +657,15 @@ var symbols = {
             ["style", "left", '100%'],
             ["style", "width", '46.48%']
          ],
-         "${_U-Sora}": [
-            ["style", "top", '3.26%'],
-            ["style", "display", 'none'],
-            ["style", "height", '96.08%'],
-            ["style", "left", '-53.39%'],
-            ["style", "width", '54.35%']
-         ],
-         "${_U-KeKai}": [
-            ["style", "top", '100%'],
-            ["style", "display", 'none'],
-            ["style", "height", '95.18%'],
-            ["style", "left", '10.29%'],
-            ["style", "width", '39.23%']
-         ],
-         "${_T-MountainChen}": [
-            ["subproperty", "textShadow.blur", '15px'],
-            ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '3px'],
+         "${_T-XiaoQiuCopy}": [
+            ["style", "top", '66.66%'],
+            ["style", "font-size", '300%'],
             ["style", "left", '100%'],
-            ["style", "width", '32.06%'],
-            ["style", "top", '55.2%'],
-            ["style", "height", '27.74%'],
-            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
-            ["style", "cursor", 'help'],
-            ["style", "display", 'none']
-         ],
-         "${_T-BunnyLiu}": [
-            ["subproperty", "textShadow.blur", '15px'],
-            ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "cursor", 'help'],
-            ["style", "width", '31.62%'],
-            ["style", "top", '64.06%'],
+            ["style", "display", 'none'],
             ["style", "height", '14.84%'],
-            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
-            ["style", "display", 'none'],
-            ["style", "left", '-31.62%']
-         ],
-         "${_gp13-6}": [
-            ["style", "top", '26.82%'],
-            ["subproperty", "boxShadow.blur", '15px'],
-            ["subproperty", "boxShadow.offsetH", '0px'],
-            ["style", "display", 'none'],
-            ["subproperty", "boxShadow.offsetV", '0px'],
-            ["style", "left", '100%'],
-            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)']
-         ],
-         "${_U-HuiChu}": [
-            ["style", "top", '100%'],
-            ["style", "height", '248.12%'],
-            ["style", "display", 'none'],
-            ["style", "left", '53.16%'],
-            ["style", "width", '46.84%']
-         ],
-         "${_U-LenChan}": [
-            ["style", "top", '5.47%'],
-            ["style", "left", '-39.49%'],
-            ["style", "display", 'none']
-         ],
-         "${_T-YookkeiLau}": [
-            ["subproperty", "textShadow.blur", '15px'],
-            ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '3px'],
-            ["style", "left", '100%'],
-            ["style", "width", '35.38%'],
-            ["style", "top", '58.34%'],
-            ["style", "height", '21.48%'],
-            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
-            ["style", "display", 'none'],
-            ["style", "cursor", 'help']
+            ["color", "color", 'rgba(255,255,255,1.00)'],
+            ["style", "cursor", 'pointer'],
+            ["style", "width", '34.42%']
          ],
          "${_U-YookkeiLau}": [
             ["style", "top", '3.91%'],
@@ -686,12 +697,12 @@ var symbols = {
             ["style", "left", '-54.56%'],
             ["style", "width", '54.56%']
          ],
-         "${_U-SakuraChino}": [
-            ["style", "top", '3.91%'],
-            ["style", "height", '96.09%'],
+         "${_U-KeKai}": [
+            ["style", "top", '100%'],
             ["style", "display", 'none'],
-            ["style", "left", '100%'],
-            ["style", "width", '54.28%']
+            ["style", "height", '95.18%'],
+            ["style", "left", '10.29%'],
+            ["style", "width", '39.23%']
          ],
          "${_T-TianShiHui}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -712,17 +723,17 @@ var symbols = {
             ["style", "left", '100%'],
             ["style", "width", '48.39%']
          ],
-         "${_T-SakuraChino}": [
+         "${_T-MountainChen}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "left", '3.97%'],
-            ["style", "width", '55.38%'],
-            ["style", "top", '-17.57%'],
-            ["style", "height", '21.48%'],
+            ["subproperty", "textShadow.offsetV", '3px'],
+            ["style", "left", '100%'],
+            ["style", "width", '32.06%'],
+            ["style", "top", '55.2%'],
+            ["style", "height", '27.74%'],
             ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
-            ["style", "display", 'none'],
-            ["style", "cursor", 'help']
+            ["style", "cursor", 'help'],
+            ["style", "display", 'none']
          ],
          "${_T-ARIAAOI}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -786,41 +797,51 @@ var symbols = {
             ["style", "cursor", 'help'],
             ["style", "display", 'none']
          ],
-         "${_U-MioAkiyama}": [
-            ["style", "top", '100%'],
-            ["style", "left", '-48.24%'],
-            ["style", "display", 'none']
-         ],
-         "${_T-XuShu}": [
+         "${_T-BunnyLiu}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
             ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "left", '100%'],
-            ["style", "width", '33.09%'],
-            ["style", "top", '62.5%'],
-            ["style", "height", '22.27%'],
-            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
             ["style", "cursor", 'help'],
-            ["style", "display", 'none']
+            ["style", "width", '31.62%'],
+            ["style", "top", '64.06%'],
+            ["style", "height", '14.84%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "display", 'none'],
+            ["style", "left", '-31.62%']
          ],
-         "${_T-XsummerXia}": [
+         "${_gp13-3}": [
+            ["style", "top", '6.77%'],
+            ["subproperty", "boxShadow.blur", '15px'],
+            ["style", "left", '100%'],
+            ["style", "display", 'block'],
+            ["subproperty", "boxShadow.offsetV", '0px'],
+            ["subproperty", "boxShadow.offsetH", '3px'],
+            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)']
+         ],
+         "${_TXT-Title1}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '3px'],
-            ["style", "cursor", 'help'],
-            ["style", "width", '39.2%'],
-            ["style", "top", '-18.49%'],
-            ["style", "height", '18.49%'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '0px'],
+            ["style", "width", '100%'],
+            ["style", "top", '25%'],
+            ["style", "font-size", '400%'],
+            ["style", "height", '33.85%'],
+            ["subproperty", "textShadow.color", 'rgba(241,167,255,1.00)'],
+            ["style", "font-style", 'normal'],
+            ["style", "display", 'none']
+         ],
+         "${_T-johnnyJo}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '-17.95%'],
+            ["style", "width", '24.34%'],
+            ["style", "top", '60.15%'],
+            ["style", "height", '21.88%'],
             ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
             ["style", "display", 'none'],
-            ["style", "left", '5.14%']
-         ],
-         "${_U-XiaoQiu}": [
-            ["style", "top", '3.26%'],
-            ["style", "display", 'none'],
-            ["style", "height", '95.89%'],
-            ["style", "left", '-50%'],
-            ["style", "width", '50%']
+            ["style", "cursor", 'help']
          ],
          "${_T-LenChan}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -856,21 +877,38 @@ var symbols = {
             ["style", "left", '-64.93%'],
             ["style", "width", '64.94%']
          ],
+         "${_gp13-6}": [
+            ["style", "top", '26.82%'],
+            ["subproperty", "boxShadow.blur", '15px'],
+            ["subproperty", "boxShadow.offsetH", '0px'],
+            ["style", "display", 'none'],
+            ["subproperty", "boxShadow.offsetV", '0px'],
+            ["style", "left", '100%'],
+            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)']
+         ],
          "${__2012102321505821}": [
             ["style", "top", '-38.54%'],
             ["style", "left", '0%'],
             ["style", "height", '138.54%']
          ],
-         "${_T-HuiChu}": [
+         "${_U-HuiChu}": [
+            ["style", "top", '100%'],
+            ["style", "height", '248.12%'],
+            ["style", "display", 'none'],
+            ["style", "left", '53.16%'],
+            ["style", "width", '46.84%']
+         ],
+         "${_T-YookkeiLau}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "left", '17.36%'],
-            ["style", "width", '17.36%'],
-            ["style", "top", '-16.92%'],
-            ["style", "height", '20.83%'],
+            ["subproperty", "textShadow.offsetV", '3px'],
+            ["style", "left", '100%'],
+            ["style", "width", '35.38%'],
+            ["style", "top", '58.34%'],
+            ["style", "height", '21.48%'],
             ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
-            ["style", "display", 'none']
+            ["style", "display", 'none'],
+            ["style", "cursor", 'help']
          ],
          "${_T-MioAkiyama}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -891,12 +929,12 @@ var symbols = {
             ["style", "left", '-54.05%'],
             ["style", "width", '53.82%']
          ],
-         "${_U-DaisukeMineko}": [
+         "${_U-SakuraChino}": [
             ["style", "top", '3.91%'],
-            ["style", "height", '96.05%'],
+            ["style", "height", '96.09%'],
             ["style", "display", 'none'],
-            ["style", "left", '-51.18%'],
-            ["style", "width", '51.18%']
+            ["style", "left", '100%'],
+            ["style", "width", '54.28%']
          ],
          "${_T-fzs}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -924,23 +962,19 @@ var symbols = {
             ["style", "left", '-24.56%'],
             ["style", "width", '25.3%']
          ],
-         "${_TitleBar}": [
-            ["style", "height", '30px'],
-            ["color", "background-color", 'rgba(0,0,0,1.00)'],
-            ["style", "left", '0px'],
-            ["style", "width", '100%']
-         ],
-         "${_T-jyuntang}": [
-            ["subproperty", "textShadow.blur", '15px'],
-            ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '3px'],
-            ["style", "left", '2.94%'],
-            ["style", "width", '27.73%'],
-            ["style", "top", '66.67%'],
+         "${_U-kirikakuMori}": [
+            ["style", "top", '3.91%'],
+            ["style", "height", '95.89%'],
             ["style", "display", 'none'],
-            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
-            ["style", "cursor", 'help'],
-            ["style", "height", '14.84%']
+            ["style", "left", '-25.15%'],
+            ["style", "width", '25.15%']
+         ],
+         "${_U-johnnyJo}": [
+            ["style", "top", '3.91%'],
+            ["style", "height", '95.84%'],
+            ["style", "display", 'none'],
+            ["style", "left", '100%'],
+            ["style", "width", '53.91%']
          ],
          "${_U-XsummerXia}": [
             ["style", "top", '4.45%'],
@@ -949,12 +983,17 @@ var symbols = {
             ["style", "left", '100%'],
             ["style", "width", '43.9%']
          ],
-         "${_U-johnnyJo}": [
-            ["style", "top", '3.91%'],
-            ["style", "height", '95.84%'],
+         "${_T-SakuraChino}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '3.97%'],
+            ["style", "width", '55.38%'],
+            ["style", "top", '-17.57%'],
+            ["style", "height", '21.48%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
             ["style", "display", 'none'],
-            ["style", "left", '100%'],
-            ["style", "width", '53.91%']
+            ["style", "cursor", 'help']
          ],
          "${_T-DaisukeMineko}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -968,40 +1007,38 @@ var symbols = {
             ["style", "display", 'none'],
             ["style", "cursor", 'help']
          ],
-         "${_T-TonyZhao}": [
+         "${_gp13-5}": [
+            ["style", "top", '7.8%'],
+            ["subproperty", "boxShadow.blur", '15px'],
+            ["style", "left", '100%'],
+            ["style", "display", 'none'],
+            ["subproperty", "boxShadow.offsetV", '0px'],
+            ["subproperty", "boxShadow.offsetH", '0px'],
+            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)']
+         ],
+         "${_T-XuShu}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
             ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "left", '70.65%'],
-            ["style", "width", '18.83%'],
-            ["style", "top", '-14.84%'],
-            ["style", "height", '14.84%'],
+            ["style", "left", '100%'],
+            ["style", "width", '33.09%'],
+            ["style", "top", '62.5%'],
+            ["style", "height", '22.27%'],
             ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
             ["style", "cursor", 'help'],
             ["style", "display", 'none']
          ],
-         "${_T-johnnyJo}": [
+         "${_T-XsummerXia}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
-            ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "left", '-17.95%'],
-            ["style", "width", '24.34%'],
-            ["style", "top", '60.15%'],
-            ["style", "height", '21.88%'],
+            ["subproperty", "textShadow.offsetV", '3px'],
+            ["style", "cursor", 'help'],
+            ["style", "width", '39.2%'],
+            ["style", "top", '-18.49%'],
+            ["style", "height", '18.49%'],
             ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
             ["style", "display", 'none'],
-            ["style", "cursor", 'help']
-         ],
-         "${_T-kirikakuMori}": [
-            ["subproperty", "textShadow.blur", '15px'],
-            ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "left", '100%'],
-            ["style", "width", '30.45%'],
-            ["style", "top", '63.41%'],
-            ["style", "height", '20.18%'],
-            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
-            ["style", "display", 'none'],
-            ["style", "cursor", 'help']
+            ["style", "left", '5.14%']
          ],
          "${_T-slb1}": [
             ["subproperty", "textShadow.blur", '15px'],
@@ -1016,21 +1053,23 @@ var symbols = {
             ["style", "text-decoration", 'none'],
             ["style", "height", '20.7%']
          ],
-         "${_U-kirikakuMori}": [
-            ["style", "top", '3.91%'],
+         "${_U-XiaoQiu}": [
+            ["style", "top", '3.26%'],
+            ["style", "display", 'none'],
             ["style", "height", '95.89%'],
-            ["style", "display", 'none'],
-            ["style", "left", '-25.15%'],
-            ["style", "width", '25.15%']
+            ["style", "left", '-50%'],
+            ["style", "width", '50%']
          ],
-         "${_gp13-5}": [
-            ["style", "top", '7.8%'],
-            ["subproperty", "boxShadow.blur", '15px'],
-            ["style", "left", '100%'],
-            ["style", "display", 'none'],
-            ["subproperty", "boxShadow.offsetV", '0px'],
-            ["subproperty", "boxShadow.offsetH", '0px'],
-            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)']
+         "${_T-HuiChu}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '0px'],
+            ["style", "left", '17.36%'],
+            ["style", "width", '17.36%'],
+            ["style", "top", '-16.92%'],
+            ["style", "height", '20.83%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "display", 'none']
          ],
          "${_TXT-Pyashi}": [
             ["style", "letter-spacing", '0em'],
@@ -1057,15 +1096,11 @@ var symbols = {
             ["style", "display", 'none'],
             ["style", "left", '-21.18%']
          ],
-         "${_T-XiaoQiuCopy}": [
-            ["style", "top", '66.66%'],
-            ["style", "font-size", '300%'],
-            ["style", "left", '100%'],
-            ["style", "display", 'none'],
-            ["style", "height", '14.84%'],
-            ["color", "color", 'rgba(255,255,255,1.00)'],
-            ["style", "cursor", 'pointer'],
-            ["style", "width", '34.42%']
+         "${_TitleBar}": [
+            ["style", "height", '30px'],
+            ["color", "background-color", 'rgba(0,0,0,1.00)'],
+            ["style", "left", '0px'],
+            ["style", "width", '100%']
          ],
          "${_Stage}": [
             ["color", "background-color", 'rgba(187,231,255,1.00)'],
@@ -1074,27 +1109,29 @@ var symbols = {
             ["style", "height", '100%'],
             ["style", "width", '100%']
          ],
-         "${_TXT-Title1}": [
+         "${_T-jyuntang}": [
+            ["subproperty", "textShadow.blur", '15px'],
+            ["subproperty", "textShadow.offsetH", '0px'],
+            ["subproperty", "textShadow.offsetV", '3px'],
+            ["style", "left", '2.94%'],
+            ["style", "width", '27.73%'],
+            ["style", "top", '66.67%'],
+            ["style", "display", 'none'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "cursor", 'help'],
+            ["style", "height", '14.84%']
+         ],
+         "${_T-TonyZhao}": [
             ["subproperty", "textShadow.blur", '15px'],
             ["subproperty", "textShadow.offsetH", '0px'],
             ["subproperty", "textShadow.offsetV", '0px'],
-            ["style", "left", '0px'],
-            ["style", "width", '100%'],
-            ["style", "top", '25%'],
-            ["style", "font-size", '400%'],
-            ["style", "height", '33.85%'],
-            ["subproperty", "textShadow.color", 'rgba(241,167,255,1.00)'],
-            ["style", "font-style", 'normal'],
+            ["style", "left", '70.65%'],
+            ["style", "width", '18.83%'],
+            ["style", "top", '-14.84%'],
+            ["style", "height", '14.84%'],
+            ["subproperty", "textShadow.color", 'rgba(255,255,0,1.00)'],
+            ["style", "cursor", 'help'],
             ["style", "display", 'none']
-         ],
-         "${_gp13-3}": [
-            ["style", "top", '6.77%'],
-            ["subproperty", "boxShadow.blur", '15px'],
-            ["style", "left", '100%'],
-            ["style", "display", 'block'],
-            ["subproperty", "boxShadow.offsetV", '0px'],
-            ["subproperty", "boxShadow.offsetH", '3px'],
-            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)']
          ],
          "${_TXT-Title2}": [
             ["subproperty", "textShadow.blur", '3px'],
@@ -1115,15 +1152,27 @@ var symbols = {
       "Default Timeline": {
          fromState: "Base State",
          toState: "",
-         duration: 54750,
+         duration: 56750,
          autoPlay: true,
          timeline: [
+            { id: "eid724", tween: [ "style", "${_T-QiHui}", "left", '10.36%', { fromValue: '-35.52%'}], position: 54250, duration: 500 },
+            { id: "eid725", tween: [ "style", "${_T-QiHui}", "left", '13.3%', { fromValue: '10.36%'}], position: 54750, duration: 1250 },
+            { id: "eid728", tween: [ "style", "${_T-QiHui}", "left", '-35.52%', { fromValue: '13.3%'}], position: 56000, duration: 750 },
             { id: "eid694", tween: [ "style", "${_T-LenChan}", "left", '16.62%', { fromValue: '100%'}], position: 51000, duration: 500 },
             { id: "eid695", tween: [ "style", "${_T-LenChan}", "left", '9.56%', { fromValue: '16.62%'}], position: 51500, duration: 1000 },
             { id: "eid698", tween: [ "style", "${_T-LenChan}", "left", '-27.87%', { fromValue: '9.56%'}], position: 52500, duration: 500 },
+            { id: "eid732", tween: [ "style", "${_T-QiHui}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid721", tween: [ "style", "${_T-QiHui}", "display", 'block', { fromValue: 'none'}], position: 54250, duration: 0 },
+            { id: "eid730", tween: [ "style", "${_T-QiHui}", "display", 'none', { fromValue: 'block'}], position: 56750, duration: 0 },
             { id: "eid628", tween: [ "style", "${_T-TianShiHui}", "left", '59.42%', { fromValue: '-13.08%'}], position: 45000, duration: 500 },
             { id: "eid631", tween: [ "style", "${_T-TianShiHui}", "left", '67.95%', { fromValue: '59.42%'}], position: 45500, duration: 1000 },
             { id: "eid632", tween: [ "style", "${_T-TianShiHui}", "left", '100%', { fromValue: '67.95%'}], position: 46500, duration: 500 },
+            { id: "eid723", tween: [ "style", "${_U-QiHui}", "left", '55.74%', { fromValue: '100%'}], position: 54250, duration: 500 },
+            { id: "eid726", tween: [ "style", "${_U-QiHui}", "left", '52.21%', { fromValue: '55.74%'}], position: 54750, duration: 1250 },
+            { id: "eid727", tween: [ "style", "${_U-QiHui}", "left", '100%', { fromValue: '52.21%'}], position: 56000, duration: 750 },
+            { id: "eid687", tween: [ "style", "${_U-BunnyLiu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid678", tween: [ "style", "${_U-BunnyLiu}", "display", 'block', { fromValue: 'none'}], position: 49500, duration: 0 },
+            { id: "eid685", tween: [ "style", "${_U-BunnyLiu}", "display", 'none', { fromValue: 'block'}], position: 51500, duration: 0 },
             { id: "eid417", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid392", tween: [ "style", "${_U-KeKai}", "display", 'block', { fromValue: 'none'}], position: 30000, duration: 0 },
             { id: "eid410", tween: [ "style", "${_U-KeKai}", "display", 'none', { fromValue: 'block'}], position: 32000, duration: 0 },
@@ -1185,9 +1234,9 @@ var symbols = {
             { id: "eid636", tween: [ "style", "${_U-TianShiHui}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid624", tween: [ "style", "${_U-TianShiHui}", "display", 'block', { fromValue: 'none'}], position: 45000, duration: 0 },
             { id: "eid634", tween: [ "style", "${_U-TianShiHui}", "display", 'none', { fromValue: 'block'}], position: 47000, duration: 0 },
-            { id: "eid687", tween: [ "style", "${_U-BunnyLiu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
-            { id: "eid678", tween: [ "style", "${_U-BunnyLiu}", "display", 'block', { fromValue: 'none'}], position: 49500, duration: 0 },
-            { id: "eid685", tween: [ "style", "${_U-BunnyLiu}", "display", 'none', { fromValue: 'block'}], position: 51500, duration: 0 },
+            { id: "eid731", tween: [ "style", "${_U-QiHui}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid719", tween: [ "style", "${_U-QiHui}", "display", 'block', { fromValue: 'none'}], position: 54250, duration: 0 },
+            { id: "eid729", tween: [ "style", "${_U-QiHui}", "display", 'none', { fromValue: 'block'}], position: 56750, duration: 0 },
             { id: "eid622", tween: [ "style", "${_U-HuiChu}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
             { id: "eid607", tween: [ "style", "${_U-HuiChu}", "display", 'block', { fromValue: 'none'}], position: 43500, duration: 0 },
             { id: "eid617", tween: [ "style", "${_U-HuiChu}", "display", 'none', { fromValue: 'block'}], position: 45500, duration: 0 },
