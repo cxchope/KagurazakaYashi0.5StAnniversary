@@ -238,13 +238,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_Text27}", "click", function(sym, e) {
-         window.open("https://plus.google.com/105938465531761409080/about", "_self");
+         window.open("https://plus.google.com/105938465531761409080/posts/jLhYwPEwYwc", "_self");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_Text}", "click", function(sym, e) {
-         window.open("https://github.com/cxchope/KagurazakaYashi0.5StAnniversary", "_new");
+         alert("将停止播放并切换到下载页面。进入后点击“Download ZIP”按钮即可。解压缩后打开“下载版点这里观看.htm”文件观看。");
+         window.open("https://github.com/cxchope/KagurazakaYashi0.5StAnniversary", "_self");
 
       });
       //Edge binding end
@@ -263,6 +264,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_T-MioAkiyama}", "click", function(sym, e) {
          window.open("https://plus.google.com/112406448635938550505/about", "_new");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_GSC3}", "click", function(sym, e) {
+         window.open("https://plus.google.com/communities/108664007656939503022", "_new");
 
       });
       //Edge binding end
