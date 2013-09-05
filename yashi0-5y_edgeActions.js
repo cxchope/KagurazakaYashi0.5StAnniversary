@@ -12,7 +12,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'stage'
    (function(symbolName) {
       alert("即将开始下载数据包，页面可能空白一段时间，请勿切换到其它页面或程序。如果长时间无法显示内容，请刷新再试。by雅诗");
-      var bgSound = new buzz.sound("tomorrow", {formats:["mp3"]});
+      var bgSound = new buzz.sound("tomorrow", {formats:["mp3","ogg"]});
       bgSound.bind("loadeddata",function(e){
         var stage = Edge.getComposition(compId).getStage();
         bgSound.v
